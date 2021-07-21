@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    background-color: rgb(236, 233, 233);
+    border: dashed 2px black;
+    border-radius: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.header {
+    width: 393px;
+    height: 200px;
+    background-image: url(/imgs/paisagem.jpg); 
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clear {
+    text-align: right;
+    padding: 10px;
+    color: white;
+}
+
+#date {
+    text-align: inherit;
+    padding: 50px 0px 20px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.content {
+    height: 350px;
+}
+
+.item {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 393px;
+    justify-content: space-between;
+}
+
+.fa {
+    padding: 10px;
+}
+
+.fa-plus-circle {
+    color: rgb(36, 113, 180);
+}
+
+.fa-trash-o {
+    display: block;
+    float: right;
+    text-align: right;
+    color: rgb(207, 25, 25);
+}
+
+.fa-trash-o:hover {
+    color: red;
+}
+
+.fa-check-circle {
+    color: rgb(1, 165, 1);
+}
+
+.text {
+    padding: 10px 0px 10px 0px;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#input {
+    margin-bottom: 20px;
+} 
